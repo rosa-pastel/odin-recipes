@@ -1,20 +1,39 @@
-img{
-    width: 500px;
-}
-.description{
-    text-align: center;
-}
 body{
+    max-width: max-content;
+    margin: 0px auto 200px;
+}
+div.content img{
+    width: 100%;
+    display: block;
+    margin: 5% auto;
+}
+.content{
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(70, 92, 61);
     color: beige;
-}
-ul,
-ol,
-.description{
     font-size: 20px;
+    max-width: 850px;
+    margin: 30px auto;
 }
-h1{
+.content.container{
+    padding: 50px;
+    display: inline-block;
+    margin: -850px 50px 0px;
+}
+.content.heading{
     font-size: 42px;
+}
+.heading,
+.description {
     text-align: center;
+    margin: 10px auto 50px;
+}
+div.header{
+    display: inline-block;
+}
+div.header img{
+    margin: 50px;
+    max-width: 200px;
+    margin-bottom: 900px;
 }
