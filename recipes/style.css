@@ -2,12 +2,13 @@ body{
     max-width: max-content;
     margin: 0px auto 200px;
 }
-div.content img{
+div.content-container img{
     width: 100%;
     display: block;
     margin: 5% auto;
 }
-.content{
+.content-container,
+.content-container > * {
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(70, 92, 61);
@@ -16,12 +17,12 @@ div.content img{
     max-width: 850px;
     margin: 30px auto;
 }
-.content.container{
+.content-container{
     padding: 50px;
     display: inline-block;
     margin: -850px 50px 0px;
 }
-.content.heading{
+.content-container > .heading{
     font-size: 42px;
 }
 .heading,
@@ -29,10 +30,10 @@ div.content img{
     text-align: center;
     margin: 10px auto 50px;
 }
-div.header{
+.header-container{
     display: inline-block;
 }
-div.header img{
+.header-container img{
     margin: 50px;
     max-width: 200px;
     margin-bottom: 900px;
