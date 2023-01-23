@@ -1,21 +1,19 @@
 .content-container img{
-    width: 100%;
+    width: 650px;
     display: block;
     margin: 5% auto;
 }
-.content-container{
-    box-sizing: border-box;
+.content-container,
+.content-container > * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(70, 92, 61);
     color: beige;
     font-size: 20px;
-    max-width: 850px;
-    margin: 30px auto;
 }
 div.content-container{
+    margin: 50px;
     padding: 50px;
-    display: inline-block;
-    margin: 50px 50px 0px 0px;
+    width: 850px;
 }
 .content-container > .heading{
     font-size: 42px;
@@ -25,15 +23,15 @@ div.content-container{
     text-align: center;
     margin: 10px auto 50px;
 }
-.header-container{
-    display: inline-block;
-}
 .header-container img{
-    margin: 50px;
+    margin: 50px auto 0px;
     max-width: 200px;
-    margin-bottom: 900px;
 }
 body{
-    width: max-content;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
